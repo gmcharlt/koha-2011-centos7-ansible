@@ -8,6 +8,7 @@
      -  AnyEvent::HTTP
      -  Archive::Extract
      -  Archive::Zip
+     -  Array::Utils
      -  Authen::CAS::Client
      -  Biblio::EndnoteStyle
      -  Business::ISBN
@@ -21,6 +22,7 @@
      -  CGI::Session::Driver::memcached
      -  CGI::Session::Serialize::yaml
      -  CPAN::Meta
+     -  CPAN::Meta::Requirements
      -  Cache::FastMmap
      -  Cache::Memcached
      -  Cache::Memcached::Fast::Safe
@@ -89,7 +91,9 @@
      -  Locale::Language
      -  Locale::Maketext
      -  Locale::Maketext::Lexicon
+     -  Locale::Messages
      -  Locale::PO
+     -  Locale::XGettext::TT2
      -  Log::Log4perl
      -  MARC::Charset
      -  MARC::File::XML

@@ -28,6 +28,29 @@
      - nano
      - phpmyadmin
      - rabbitmq-server
+     - perl-Env
+     - perl-File-Which
+     - expat
+     - expat-devel
+     - libxml2
+     - libxml2-devel
+     - perl-XML-Twig
+     - perl-XML-LibXML
+     - perl-XML-SAX
+     - perl-XML-Parser
+     - perl-XML-Simple
+     - perl-Test-Warn
+     - perl-Test-YAML-Valid
+     - perl-Text-Iconv
+     - perl-Test-MockObject
+     - perl-LWP-Protocol-https
+     - perl-GD
+     - perl-SOAP-Lite
+     - perl-HTML-Tidy
+     - perl-autodie
+     - perl-Net-CIDR
+     - perl-Sys-CPU 
+     - perl-Parallel-ForkManager
 
 
 
