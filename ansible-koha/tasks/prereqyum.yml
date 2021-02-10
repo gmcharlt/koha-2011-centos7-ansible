@@ -27,6 +27,7 @@
      - bzip2-devel
      - nano
      - phpmyadmin
+     - rabbitmq-server
 
 
 
