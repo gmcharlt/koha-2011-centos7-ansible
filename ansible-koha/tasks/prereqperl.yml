@@ -20,7 +20,7 @@
      -  CGI::Emulate::PSGI
      -  CGI::Session
      -  CGI::Session::Driver::memcached
-     -  CGI::Session::Serialize::yaml
+     -  TINITA/CGI-Session-Serialize-yaml-4.26_001.tar.gz
      -  CPAN::Meta
      -  CPAN::Meta::Requirements
      -  Cache::FastMmap
