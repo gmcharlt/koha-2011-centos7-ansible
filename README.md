@@ -6,6 +6,7 @@
   <li>Update CentOS – sudo yum update</li>
   <li>Enable EPEL – sudo yum -y install epel-release</li>
   <li>Update Install – sudo yum -y update</li>
+  <li>Install Apache - sudo yum -y install httpd</li>
   <li>Install Ansible and MySQL Python - sudo yum -y install ansible MySQL-python git cpanminus perl*</li>
   <li>Create user koha, group koha and add koha (user) to koha and apache groups
     <ul>
