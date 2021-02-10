@@ -1,5 +1,5 @@
-<h1>ANSIBLE PLAYBOOK FOR CENTOS 7 AND KOHA 19.05</h1> 
-<h3>(based on https://github.com/nemobis/beic-koha)</h3>
+<h1>ANSIBLE PLAYBOOK FOR CENTOS 7 AND KOHA 20.11</h1> 
+<h3>(based on https://github.com/mbedulibrary/koha-1905-ansible, in turn based on https://github.com/nemobis/beic-koha)</h3>
 
 <ol>
   <li>Install Core CentOS 7 (1810) – Choose Server GUI software package, Connect to Network, set hostname, set time zone, make partitions as needed, set root password and create Admin user (koha-admin) </li>
