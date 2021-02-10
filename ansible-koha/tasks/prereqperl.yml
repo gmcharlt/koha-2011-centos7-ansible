@@ -20,12 +20,14 @@
      -  CGI::Session
      -  CGI::Session::Driver::memcached
      -  CGI::Session::Serialize::yaml
+     -  CPAN::Meta
      -  Cache::FastMmap
      -  Cache::Memcached
-     -  Cache::Memcached::Fast
+     -  Cache::Memcached::Fast::Safe
      -  Cache::Memory
      -  Class::Accessor
      -  Class::Factory::Util
+     -  Class::Inspector
      -  Clone
      -  Convert::BaseN
      -  Crypt::Eksblowfish::Bcrypt
@@ -44,12 +46,14 @@
      -  DateTime::Event::ICal
      -  DateTime::Format::ICal
      -  DateTime::Format::MySQL
-     -  DateTime::Set
      -  DateTime::TimeZone
      -  Devel::Cover
      -  Digest::MD5
      -  Digest::SHA
      -  Email::Date
+     -  Email::MessageID
+     -  Email::Sender
+     -  Email::Stuffer
      -  Email::Valid
      -  Exception::Class
      -  File::Copy
@@ -90,12 +94,13 @@
      -  MARC::Charset
      -  MARC::File::XML
      -  MARC::Record
+     -  MARC::Record::MiJ
      -  MIME::Base64
      -  MIME::Lite
      -  MIME::QuotedPrint
-     -  Mail::Sendmail
      -  Modern::Perl
      -  Module::Bundled::Files
+     -  Module::CPANfile
      -  Module::Load::Conditional
      -  Module::Pluggable
      -  Mojolicious
@@ -104,20 +109,22 @@
      -  Net::OAuth2::AuthorizationServer
      -  Net::LDAP
      -  Net::LDAP::Filter
+     -  Net::Netmask
      -  Net::SFTP::Foreign
      -  Net::Server
+     -  Net::Stomp
+     -  Net::Z3950::SimpleServer
      -  Net::Z3950::ZOOM
      -  Number::Format
      -  OpenOffice::OODoc
      -  PDF::API2
-     -  PDF::API2::Page
-     -  PDF::API2::Simple
-     -  PDF::API2::Util
      -  PDF::FromHTML
      -  PDF::Reuse
      -  PDF::Reuse::Barcode
      -  PDF::Table
      -  POSIX
+     -  PPI
+     -  Plack::Middleware::LogWarn
      -  Plack::Middleware::ReverseProxy
      -  Readonly
      -  Readonly::XS
@@ -168,7 +175,6 @@
      -  UUID
      -  Unicode::Normalize
      -  WWW::CSRF
-     -  WWW::YouTube::Download
      -  WebService::ILS
      -  XML::Dumper
      -  XML::LibXML
