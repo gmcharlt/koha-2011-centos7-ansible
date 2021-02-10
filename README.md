@@ -11,12 +11,13 @@
   <li>Create user koha, group koha and add koha (user) to koha and apache groups
     <ul>
       <li>sudo adduser koha</li>
+      <li>sudo adduser koha-admin # currently expects to build in /home/koha-admin</li>
       <li>sudo usermod -a -G koha koha</li>
       <li>sudo usermod -a -G apache koha</li>
     </ul>
   <li>Clone or Download ansible playbook</li>
   <li>Go to Download Location of ansible playbook</li>
-  <li>Run Ansible - sudo ansible-playbook koha.yml –u koha –i inventory.ini --connection local</li>
+  <li>Run Ansible - sudo ansible-playbook --connection local -i inventory.ini  -u koha --step koha.yml</li>
   <li>Secure MySQL Database - sudo mysql_secure_installation</li>
   <li>Find IP address of install server or localhost on port 8080 (localhost:8080) and begin web installation (username: kohaadmin password:katikoan)</li>
   <li>Go to About Koha and update required Perl modules manually with cpanm (ex:sudo cpanm Module::Name)</li>
